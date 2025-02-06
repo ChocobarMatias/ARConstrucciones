@@ -1,0 +1,41 @@
+
+// Rutas de Page
+export const HOME = "/"
+export const ERROR = "*"
+export const HOME_SISTEMA_GESTION = "/Admin"
+export const CONTACTO = "/contacto"
+export const TERRENOS = "/terrenos"
+export const DEPARTAMENTOS = "/departamentos"
+export const CONSTRUCCIONES = "/construcciones"
+export const INSTITUCIONAL = "/institucional"
+
+export const LOGIN = "/area-empleados/Login"
+export const RECUPERAR = "/area-empleados/RecuperarContraseña"
+
+
+export const CERTIFICADOS = "/Admin/Certificados"
+export const CREAR_CERTIFICADOS = "/Admin/CrearCertificados"
+export const HOME_ADMIN = "/HomeAdmin"
+export const FLUJO_CAJA = "/Admin/FlujoCaja"
+export const LIBRO_DIARIO = "/Admin/LibroDiario"
+export const TERRENOS_ADMIN = "/Admin/Terrenos"
+export const EMPLEADOS = "/Admin/Empleados"
+export const VTA_TERRENOS = "/Admin/VentaTerrenos"
+export const COMPRA_MATERIALES = "/Admin/CompraMateriales"
+export const STOCK = "/AdminStock"
+export const CLIENTES = "/Admin/Clientes"
+export const DEPARTAMENTOS_ADMIN = "/Admin/Departamentos"
+export const PAGOS_DPTO = "/Admin/PagosDepartamentos"
+export const OBRAS = "/Admin/Obras"
+export const OPERACIONES = "/Admin/Operaciones"
+export const USUARIO = "/Admin/Usuarios"
+export const UNAUTHORIZED = "/Admin/unauthorized"
+export const PAGOS = "/Admin/Pagos"
+export const VEHICULOS = "/Admin/Vehiculos"
+export const PENDIENTES = "/Admin/Pendientes"
+export const VIAJES = "/Admin/Viajes"
+export const DETALLEVIAJES = "/Admin/DetalleViajes" 
+export const ALQUILER = "/Admin/Alquiler"
+export const REMUNERACIONES = "/Admin/Remuneraciones"
+
+

@@ -1,0 +1,145 @@
+
+.valores{
+  display: flex;    
+  flex-wrap: wrap;
+  font-weight: bolder;
+  color: var(--negro);
+  margin: 0;
+  
+}
+
+.itemValores{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  height: 70vh;
+  width: 50%;    
+  padding: 5rem 17rem;
+  text-align: left;  
+}
+
+.itemValores h2{
+  position: relative;
+  font-size: 3rem;  
+  margin-bottom: 3rem;
+}
+
+.itemValores ul li{
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+
+.itemValores h2::after{
+  content: '';
+  display: block;
+  width: 0.5rem;
+  height: 5rem;
+  position: absolute;
+  top: -1rem;
+  left: -2rem;
+  background: var(--azul-logo);
+  z-index: 6;
+}
+#valores1{
+  position: relative;
+}
+.quoteBefore, .quoteAfter{
+  position: relative;
+}
+
+
+.quoteBefore::before{
+  content: ' “ ';
+  font-size: 4rem;
+  display: block;
+  color: var(--azul-logo);
+  position: absolute;  
+  right: 1rem;
+  top: -2rem;
+}
+
+.quoteAfter::after{
+  content: ' ” ';
+  font-size: 4rem;
+  display: block;
+  color: var(--azul-logo);
+  position: absolute;
+  left: 1rem;
+  bottom: -2rem;
+}
+
+.itemValores h3{
+  font-size: 1.8rem;
+}
+
+.imgValores{
+  position: relative;
+  width: 50%;
+  margin: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+  z-index: 2;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
+
+.imgValores::before{
+  position: absolute;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0,0.5);
+  z-index: 2;
+}
+#compromisoInstitucional{
+  height: 100%;
+}
+@media (max-width: 1280px){
+  .itemValores{
+    padding: 5rem 5rem;
+    
+  }
+
+
+}
+
+/* Responsive para dispositivos medianos */
+@media (max-width: 768px) {
+
+  .itemValores {
+    width: 100vw;
+    padding: 3rem 5rem;
+  }
+
+
+}
+
+/* Responsive para dispositivos pequeños */
+@media (max-width: 480px) {
+  .itemValores {    
+    align-self: center;
+  }
+
+  .itemValores h2 {
+    font-size: 2rem;
+  }
+
+  .itemValores h3 {
+    font-size: 1.5rem;
+  }
+  .quoteBefore::before{
+    font-size: 3rem;    
+  }
+  .quoteAfter::after{
+    font-size: 3rem;
+    bottom: -3rem;
+  }
+  
+
+}

@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px; /* Tamaño reducido de texto */
+}
+
+th, td {
+    padding: 8px 10px; /* Espaciado compacto */
+    text-align: left;
+    border: 1px solid #ddd; /* Líneas finas entre celdas */
+}
+
+th {
+    background-color: #f4f4f4; /* Color de fondo para encabezados */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Colores alternos para filas */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Resaltado en hover */
+}
+
+table button {
+    font-size: 12px; /* Tamaño reducido para botones */
+    padding: 5px 8px; /* Botones más compactos */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.ver-mas {
+    background-color: #007bff; /* Azul para "Ver más" */
+    color: white;
+}
+
+button.editar {
+    background-color: #ffc107; /* Naranja para "Editar" */
+    color: black;
+}
+
+button.eliminar {
+    background-color: #dc3545; /* Rojo para "Eliminar" */
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9; /* Ligero cambio al pasar el mouse */
+}
